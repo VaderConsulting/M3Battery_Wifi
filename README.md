@@ -2,6 +2,7 @@
 
 ESP8266 variant of the Model 3 battery SOC monitor: same EVTV serial parse and LED band, plus Wi-Fi so status can be reached on the LAN. SoftwareSerial is on pins 7/8; LED pins remain 4/5/6. Keep network credentials in local copies only; do not treat this public tree as a secret store.
 
+**Source last updated:** 2022-03-03  
 **Language:** C++ / Arduino  
 **Target:** ESP8266 (ESP8266WiFi) plus SoftwareSerial EVTV link  
 **Output:** Arduino sketch
