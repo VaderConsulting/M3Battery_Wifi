@@ -1,15 +1,25 @@
 # M3Battery_Wifi
 
-Arduino sketch or library from the Arduino archive.
+ESP8266 variant of the Model 3 battery SOC monitor: same EVTV serial parse and LED band, plus Wi-Fi so status can be reached on the LAN. SoftwareSerial is on pins 7/8; LED pins remain 4/5/6. Keep network credentials in local copies only; do not treat this public tree as a secret store.
 
-## Contents
+**Language:** C++ / Arduino  
+**Target:** ESP8266 (ESP8266WiFi) plus SoftwareSerial EVTV link  
+**Output:** Arduino sketch
 
-- `M3Battery_Wifi.ino`
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `M3Battery_Wifi` | C++ / Arduino | sketch | SOC LEDs plus ESP8266 Wi-Fi status for the EVTV battery feed |
+
+## How to open
+
+Open `M3Battery_Wifi.ino` in the Arduino IDE with ESP8266 board support. An `.ino.example` copy is alongside the sketch.
 
 ## Attribution and provenance
 
-- No third-party source-code attribution markers were identified in assembly/package metadata.
+Dave Robinson / VaderConsulting, derived from `M3Battery`. Imported from the Arduino archive.
 
 ## License
 
-MIT. See `LICENSE`.
+MIT © 2026 VaderConsulting for Dave's code. See `LICENSE`.
