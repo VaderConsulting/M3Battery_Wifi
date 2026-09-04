@@ -17,6 +17,10 @@ ESP8266 variant of the Model 3 battery SOC monitor: same EVTV serial parse and L
 
 Open `M3Battery_Wifi.ino` in the Arduino IDE with ESP8266 board support. An `.ino.example` copy is alongside the sketch.
 
+## Requirements
+
+- Arduino IDE
+
 ## Attribution and provenance
 
 Dave Robinson / VaderConsulting, derived from `M3Battery`. Imported from the Arduino archive.
