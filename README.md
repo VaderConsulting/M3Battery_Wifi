@@ -25,8 +25,8 @@ Open `M3Battery_Wifi.ino` in the Arduino IDE with ESP8266 board support. An `.in
 
 ## Attribution and provenance
 
-Dave Robinson / VaderConsulting, derived from `M3Battery`. Imported from the Arduino archive.
+Dave Robinson / Vader Consulting, derived from `M3Battery`. Imported from the Arduino archive.
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave's code. See `LICENSE`.
+MIT © 2026 Vader Consulting for Dave's code. See `LICENSE`.
